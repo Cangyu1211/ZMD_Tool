@@ -7,7 +7,7 @@ const ADDITIONAL_ATTRS = [
 ];
 const SKILL_ATTRS = [
     "壓制", "追襲", "巧技", "昂揚", "附術", "流轉", "夜幕", 
-    "殘暴", "粉碎", "迸發", "醫療", "效益", "切骨"
+    "殘暴", "粉碎", "迸發", "醫療", "效益", "切骨", "強攻"
 ];
 
 let weaponsData = [];
@@ -145,4 +145,5 @@ function renderResults(filtered) {
         </div>
     `).join('');
 }
+
 init();
