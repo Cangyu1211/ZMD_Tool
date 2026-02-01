@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#f5f5f7">
+    <title>終末地基質檢索</title>
+    <link rel="apple-touch-icon" href="https://img.icons8.com/ios-filled/180/2c3e50/sword.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>終末地工業檢索</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="category">
+            <h2>基礎屬性</h2>
+            <div class="tag-container" id="base-attributes"></div>
+        </div>
+
+        <div class="category">
+            <h2>附加屬性</h2>
+            <div class="tag-container" id="additional-attributes"></div>
+        </div>
+
+        <div class="category">
+            <h2>技能特質</h2>
+            <div class="tag-container" id="skill-attributes"></div>
+        </div>
+        
+        <div id="results-anchor"></div>
+        <div class="results" id="results"></div>
+
+    </div>
+
+    <div class="floating-controls">
+        <div class="status" id="status">請點擊 3 個屬性</div>
+        <div class="btn-group">
+            <button class="btn-clear" id="btn-clear">重置</button>
+            <button class="btn-see-all" id="btn-see-all" style="display: none;">查看相近</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
